@@ -1,0 +1,572 @@
+2026-08-18 09:48:41,805 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-08-18 09:48:41,824 INFO o.a.j.JMeter: Loading user properties from: C:\Users\nguye\Documents\GitHub\HW05-23127116\.tools\apache-jmeter-5.6.3\bin\user.properties
+2026-08-18 09:48:41,825 INFO o.a.j.JMeter: Loading system properties from: C:\Users\nguye\Documents\GitHub\HW05-23127116\.tools\apache-jmeter-5.6.3\bin\system.properties
+2026-08-18 09:48:41,832 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-08-18 09:48:41,832 INFO o.a.j.JMeter: Version 5.6.3
+2026-08-18 09:48:41,832 INFO o.a.j.JMeter: java.version=17.0.19
+2026-08-18 09:48:41,832 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-08-18 09:48:41,832 INFO o.a.j.JMeter: os.name=Windows 11
+2026-08-18 09:48:41,832 INFO o.a.j.JMeter: os.arch=amd64
+2026-08-18 09:48:41,832 INFO o.a.j.JMeter: os.version=10.0
+2026-08-18 09:48:41,832 INFO o.a.j.JMeter: file.encoding=Cp1258
+2026-08-18 09:48:41,832 INFO o.a.j.JMeter: java.awt.headless=true
+2026-08-18 09:48:41,832 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-08-18 09:48:41,832 INFO o.a.j.JMeter: Available Processors =12
+2026-08-18 09:48:41,842 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-08-18 09:48:41,842 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-08-18 09:48:41,842 INFO o.a.j.JMeter: JMeterHome=C:\Users\nguye\Documents\GitHub\HW05-23127116\.tools\apache-jmeter-5.6.3
+2026-08-18 09:48:41,842 INFO o.a.j.JMeter: user.dir  =C:\Users\nguye\Documents\GitHub\Homework05-23127116
+2026-08-18 09:48:41,843 INFO o.a.j.JMeter: PWD       =C:\Users\nguye\Documents\GitHub\Homework05-23127116
+2026-08-18 09:48:41,844 INFO o.a.j.JMeter: IP: 172.30.48.1 Name: LAPTOP-BKI58MTI FullName: LAPTOP-BKI58MTI.mshome.net
+2026-08-18 09:48:41,855 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\nguye\Documents\GitHub\Homework05-23127116\html-reports\spike'
+2026-08-18 09:48:41,858 INFO o.a.j.s.FileServer: Default base='C:\Users\nguye\Documents\GitHub\Homework05-23127116'
+2026-08-18 09:48:41,860 INFO o.a.j.s.FileServer: Set new base='C:\Users\nguye\Documents\GitHub\Homework05-23127116\test-plans'
+2026-08-18 09:48:42,070 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-08-18 09:48:42,095 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-08-18 09:48:42,099 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-08-18 09:48:42,102 INFO o.a.j.s.SaveService: Loading file: C:\Users\nguye\Documents\GitHub\Homework05-23127116\test-plans\23127116_Spike_20260818.jmx
+2026-08-18 09:48:42,163 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-08-18 09:48:42,163 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-08-18 09:48:42,163 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-08-18 09:48:42,163 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-08-18 09:48:42,163 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-08-18 09:48:42,163 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-08-18 09:48:42,212 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-08-18 09:48:42,216 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-08-18 09:48:42,216 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: C:\Users\nguye\Documents\GitHub\Homework05-23127116\results\23127116_Spike_20260818.jtl
+2026-08-18 09:48:42,216 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Users\nguye\Documents\GitHub\HW05-23127116\.tools\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2026-08-18 09:48:42,216 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-08-18 09:48:42,221 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-08-18 09:48:42,224 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-08-18 09:48:42,224 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-08-18 09:48:42,224 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-08-18 09:48:42,224 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-08-18 09:48:42,224 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-08-18 09:48:42,224 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-08-18 09:48:42,224 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-08-18 09:48:42,225 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-08-18 09:48:42,227 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-08-18 09:48:42,228 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-08-18 09:48:42,228 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-08-18 09:48:42,228 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-08-18 09:48:42,228 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-08-18 09:48:42,228 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-08-18 09:48:42,228 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-08-18 09:48:42,228 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-08-18 09:48:42,228 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-08-18 09:48:42,229 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-08-18 09:48:42,229 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-08-18 09:48:42,229 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-08-18 09:48:42,229 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-08-18 09:48:42,230 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-08-18 09:48:42,230 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-08-18 09:48:42,230 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-08-18 09:48:42,239 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-08-18 09:48:42,240 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-08-18 09:48:42,240 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-08-18 09:48:42,245 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-08-18 09:48:42,245 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-08-18 09:48:42,520 INFO o.a.j.JMeter: Running test (1787021322520)
+2026-08-18 09:48:42,522 INFO o.a.j.e.StandardJMeterEngine: Starting setUp thread groups
+2026-08-18 09:48:42,522 INFO o.a.j.e.StandardJMeterEngine: Starting setUp ThreadGroup: 1 : Setup - Admin login 
+2026-08-18 09:48:42,523 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Setup - Admin login.
+2026-08-18 09:48:42,523 INFO o.a.j.e.StandardJMeterEngine: Test will stop on error
+2026-08-18 09:48:42,523 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2026-08-18 09:48:42,528 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-08-18 09:48:42,528 INFO o.a.j.e.StandardJMeterEngine: Waiting for all setup thread groups to exit
+2026-08-18 09:48:42,536 INFO o.a.j.t.JMeterThread: Thread started: Setup - Admin login 1-1
+2026-08-18 09:48:42,539 INFO o.a.j.s.FileServer: Stored: data/coupons.csv
+2026-08-18 09:48:42,567 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-BKI58MTI
+2026-08-18 09:48:42,573 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-08-18 09:48:42,575 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-08-18 09:48:42,575 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-08-18 09:48:42,575 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-08-18 09:48:42,575 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-08-18 09:48:43,450 INFO o.a.j.t.JMeterThread: Thread is done: Setup - Admin login 1-1
+2026-08-18 09:48:43,450 INFO o.a.j.t.JMeterThread: Thread finished: Setup - Admin login 1-1
+2026-08-18 09:48:43,451 INFO o.a.j.e.StandardJMeterEngine: All Setup Threads have ended
+2026-08-18 09:48:43,481 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Baseline before spike
+2026-08-18 09:48:43,481 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Baseline before spike.
+2026-08-18 09:48:43,481 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-08-18 09:48:43,482 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=5 delayedStart=false
+2026-08-18 09:48:43,484 INFO o.a.j.t.JMeterThread: Thread started: Baseline before spike 1-1
+2026-08-18 09:48:43,485 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-08-18 09:48:43,485 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Sudden spike
+2026-08-18 09:48:43,485 INFO o.a.j.e.StandardJMeterEngine: Starting 200 threads for group Sudden spike.
+2026-08-18 09:48:43,485 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-08-18 09:48:43,486 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=200 ramp-up=1 delayedStart=false
+2026-08-18 09:48:43,547 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2026-08-18 09:48:43,547 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Recovery after spike
+2026-08-18 09:48:43,547 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Recovery after spike.
+2026-08-18 09:48:43,547 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-08-18 09:48:43,547 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=5 ramp-up=5 delayedStart=false
+2026-08-18 09:48:43,549 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2026-08-18 09:48:43,549 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-08-18 09:48:44,484 INFO o.a.j.t.JMeterThread: Thread started: Baseline before spike 1-2
+2026-08-18 09:48:45,483 INFO o.a.j.t.JMeterThread: Thread started: Baseline before spike 1-3
+2026-08-18 09:48:46,484 INFO o.a.j.t.JMeterThread: Thread started: Baseline before spike 1-4
+2026-08-18 09:48:47,483 INFO o.a.j.t.JMeterThread: Thread started: Baseline before spike 1-5
+2026-08-18 09:49:00,770 INFO o.a.j.r.Summariser: summary +     72 in 00:00:18 =    3.9/s Avg:    20 Min:     8 Max:   609 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2026-08-18 09:49:02,812 INFO o.a.j.t.JMeterThread: Thread finished: Baseline before spike 1-5
+2026-08-18 09:49:02,844 INFO o.a.j.t.JMeterThread: Thread finished: Baseline before spike 1-4
+2026-08-18 09:49:02,860 INFO o.a.j.t.JMeterThread: Thread finished: Baseline before spike 1-2
+2026-08-18 09:49:02,878 INFO o.a.j.t.JMeterThread: Thread finished: Baseline before spike 1-3
+2026-08-18 09:49:02,952 INFO o.a.j.t.JMeterThread: Thread finished: Baseline before spike 1-1
+2026-08-18 09:49:03,488 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-1
+2026-08-18 09:49:03,493 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-2
+2026-08-18 09:49:03,499 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-3
+2026-08-18 09:49:03,503 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-4
+2026-08-18 09:49:03,509 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-5
+2026-08-18 09:49:03,513 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-6
+2026-08-18 09:49:03,518 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-7
+2026-08-18 09:49:03,522 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-8
+2026-08-18 09:49:03,527 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-9
+2026-08-18 09:49:03,532 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-10
+2026-08-18 09:49:03,537 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-11
+2026-08-18 09:49:03,543 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-12
+2026-08-18 09:49:03,548 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-13
+2026-08-18 09:49:03,552 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-14
+2026-08-18 09:49:03,558 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-15
+2026-08-18 09:49:03,562 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-16
+2026-08-18 09:49:03,568 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-17
+2026-08-18 09:49:03,573 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-18
+2026-08-18 09:49:03,577 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-19
+2026-08-18 09:49:03,582 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-20
+2026-08-18 09:49:03,587 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-21
+2026-08-18 09:49:03,592 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-22
+2026-08-18 09:49:03,597 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-23
+2026-08-18 09:49:03,602 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-24
+2026-08-18 09:49:03,608 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-25
+2026-08-18 09:49:03,613 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-26
+2026-08-18 09:49:03,618 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-27
+2026-08-18 09:49:03,623 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-28
+2026-08-18 09:49:03,628 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-29
+2026-08-18 09:49:03,634 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-30
+2026-08-18 09:49:03,638 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-31
+2026-08-18 09:49:03,643 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-32
+2026-08-18 09:49:03,650 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-33
+2026-08-18 09:49:03,655 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-34
+2026-08-18 09:49:03,660 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-35
+2026-08-18 09:49:03,664 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-36
+2026-08-18 09:49:03,670 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-37
+2026-08-18 09:49:03,674 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-38
+2026-08-18 09:49:03,680 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-39
+2026-08-18 09:49:03,684 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-40
+2026-08-18 09:49:03,689 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-41
+2026-08-18 09:49:03,692 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-42
+2026-08-18 09:49:03,699 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-43
+2026-08-18 09:49:03,704 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-44
+2026-08-18 09:49:03,707 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-45
+2026-08-18 09:49:03,712 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-46
+2026-08-18 09:49:03,717 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-47
+2026-08-18 09:49:03,722 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-48
+2026-08-18 09:49:03,727 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-49
+2026-08-18 09:49:03,733 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-50
+2026-08-18 09:49:03,737 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-51
+2026-08-18 09:49:03,741 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-52
+2026-08-18 09:49:03,747 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-53
+2026-08-18 09:49:03,752 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-54
+2026-08-18 09:49:03,757 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-55
+2026-08-18 09:49:03,762 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-56
+2026-08-18 09:49:03,767 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-57
+2026-08-18 09:49:03,772 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-58
+2026-08-18 09:49:03,777 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-59
+2026-08-18 09:49:03,782 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-60
+2026-08-18 09:49:03,786 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-61
+2026-08-18 09:49:03,792 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-62
+2026-08-18 09:49:03,798 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-63
+2026-08-18 09:49:03,804 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-64
+2026-08-18 09:49:03,807 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-65
+2026-08-18 09:49:03,812 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-66
+2026-08-18 09:49:03,819 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-67
+2026-08-18 09:49:03,825 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-68
+2026-08-18 09:49:03,829 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-69
+2026-08-18 09:49:03,835 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-70
+2026-08-18 09:49:03,838 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-71
+2026-08-18 09:49:03,843 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-72
+2026-08-18 09:49:03,849 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-73
+2026-08-18 09:49:03,853 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-74
+2026-08-18 09:49:03,858 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-75
+2026-08-18 09:49:03,863 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-76
+2026-08-18 09:49:03,868 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-77
+2026-08-18 09:49:03,872 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-78
+2026-08-18 09:49:03,879 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-79
+2026-08-18 09:49:03,883 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-80
+2026-08-18 09:49:03,888 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-81
+2026-08-18 09:49:03,894 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-82
+2026-08-18 09:49:03,899 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-83
+2026-08-18 09:49:03,903 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-84
+2026-08-18 09:49:03,907 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-85
+2026-08-18 09:49:03,912 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-86
+2026-08-18 09:49:03,917 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-87
+2026-08-18 09:49:03,923 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-88
+2026-08-18 09:49:03,928 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-89
+2026-08-18 09:49:03,933 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-90
+2026-08-18 09:49:03,938 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-91
+2026-08-18 09:49:03,944 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-92
+2026-08-18 09:49:03,948 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-93
+2026-08-18 09:49:03,952 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-94
+2026-08-18 09:49:03,958 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-95
+2026-08-18 09:49:03,963 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-96
+2026-08-18 09:49:03,968 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-97
+2026-08-18 09:49:03,972 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-98
+2026-08-18 09:49:03,977 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-99
+2026-08-18 09:49:03,982 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-100
+2026-08-18 09:49:03,987 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-101
+2026-08-18 09:49:03,992 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-102
+2026-08-18 09:49:03,998 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-103
+2026-08-18 09:49:04,003 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-104
+2026-08-18 09:49:04,008 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-105
+2026-08-18 09:49:04,012 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-106
+2026-08-18 09:49:04,017 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-107
+2026-08-18 09:49:04,022 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-108
+2026-08-18 09:49:04,027 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-109
+2026-08-18 09:49:04,034 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-110
+2026-08-18 09:49:04,037 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-111
+2026-08-18 09:49:04,042 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-112
+2026-08-18 09:49:04,047 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-113
+2026-08-18 09:49:04,052 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-114
+2026-08-18 09:49:04,056 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-115
+2026-08-18 09:49:04,061 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-116
+2026-08-18 09:49:04,066 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-117
+2026-08-18 09:49:04,071 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-118
+2026-08-18 09:49:04,077 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-119
+2026-08-18 09:49:04,082 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-120
+2026-08-18 09:49:04,087 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-121
+2026-08-18 09:49:04,092 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-122
+2026-08-18 09:49:04,101 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-124
+2026-08-18 09:49:04,101 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-123
+2026-08-18 09:49:04,106 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-125
+2026-08-18 09:49:04,112 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-126
+2026-08-18 09:49:04,117 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-127
+2026-08-18 09:49:04,122 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-128
+2026-08-18 09:49:04,128 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-129
+2026-08-18 09:49:04,132 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-130
+2026-08-18 09:49:04,137 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-131
+2026-08-18 09:49:04,141 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-132
+2026-08-18 09:49:04,147 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-133
+2026-08-18 09:49:04,154 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-134
+2026-08-18 09:49:04,159 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-135
+2026-08-18 09:49:04,161 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-136
+2026-08-18 09:49:04,167 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-137
+2026-08-18 09:49:04,172 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-138
+2026-08-18 09:49:04,177 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-139
+2026-08-18 09:49:04,182 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-140
+2026-08-18 09:49:04,187 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-141
+2026-08-18 09:49:04,192 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-142
+2026-08-18 09:49:04,196 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-143
+2026-08-18 09:49:04,201 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-144
+2026-08-18 09:49:04,207 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-145
+2026-08-18 09:49:04,212 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-146
+2026-08-18 09:49:04,217 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-147
+2026-08-18 09:49:04,221 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-148
+2026-08-18 09:49:04,226 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-149
+2026-08-18 09:49:04,231 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-150
+2026-08-18 09:49:04,237 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-151
+2026-08-18 09:49:04,242 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-152
+2026-08-18 09:49:04,247 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-153
+2026-08-18 09:49:04,251 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-154
+2026-08-18 09:49:04,257 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-155
+2026-08-18 09:49:04,262 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-156
+2026-08-18 09:49:04,267 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-157
+2026-08-18 09:49:04,272 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-158
+2026-08-18 09:49:04,277 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-159
+2026-08-18 09:49:04,282 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-160
+2026-08-18 09:49:04,288 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-161
+2026-08-18 09:49:04,292 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-162
+2026-08-18 09:49:04,297 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-163
+2026-08-18 09:49:04,304 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-164
+2026-08-18 09:49:04,309 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-165
+2026-08-18 09:49:04,312 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-166
+2026-08-18 09:49:04,317 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-167
+2026-08-18 09:49:04,321 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-168
+2026-08-18 09:49:04,326 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-169
+2026-08-18 09:49:04,333 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-170
+2026-08-18 09:49:04,338 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-171
+2026-08-18 09:49:04,342 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-172
+2026-08-18 09:49:04,347 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-173
+2026-08-18 09:49:04,355 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-174
+2026-08-18 09:49:04,358 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-175
+2026-08-18 09:49:04,364 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-176
+2026-08-18 09:49:04,367 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-177
+2026-08-18 09:49:04,374 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-178
+2026-08-18 09:49:04,379 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-179
+2026-08-18 09:49:04,384 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-180
+2026-08-18 09:49:04,388 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-181
+2026-08-18 09:49:04,392 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-182
+2026-08-18 09:49:04,397 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-183
+2026-08-18 09:49:04,402 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-184
+2026-08-18 09:49:04,407 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-185
+2026-08-18 09:49:04,414 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-186
+2026-08-18 09:49:04,419 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-187
+2026-08-18 09:49:04,424 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-188
+2026-08-18 09:49:04,428 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-189
+2026-08-18 09:49:04,434 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-190
+2026-08-18 09:49:04,437 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-191
+2026-08-18 09:49:04,442 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-192
+2026-08-18 09:49:04,446 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-193
+2026-08-18 09:49:04,453 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-194
+2026-08-18 09:49:04,457 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-195
+2026-08-18 09:49:04,462 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-196
+2026-08-18 09:49:04,467 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-197
+2026-08-18 09:49:04,472 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-198
+2026-08-18 09:49:04,477 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-199
+2026-08-18 09:49:04,483 INFO o.a.j.t.JMeterThread: Thread started: Sudden spike 2-200
+2026-08-18 09:49:12,574 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-54
+2026-08-18 09:49:12,615 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-61
+2026-08-18 09:49:12,624 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-58
+2026-08-18 09:49:12,624 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-55
+2026-08-18 09:49:12,624 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-38
+2026-08-18 09:49:12,624 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-53
+2026-08-18 09:49:12,625 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-42
+2026-08-18 09:49:12,625 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-70
+2026-08-18 09:49:12,625 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-45
+2026-08-18 09:49:12,625 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-59
+2026-08-18 09:49:12,625 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-51
+2026-08-18 09:49:12,626 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-65
+2026-08-18 09:49:12,626 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-76
+2026-08-18 09:49:12,626 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-41
+2026-08-18 09:49:12,626 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-40
+2026-08-18 09:49:12,626 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-63
+2026-08-18 09:49:12,627 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-75
+2026-08-18 09:49:12,627 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-50
+2026-08-18 09:49:12,627 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-91
+2026-08-18 09:49:12,627 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-52
+2026-08-18 09:49:12,627 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-72
+2026-08-18 09:49:12,627 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-80
+2026-08-18 09:49:12,627 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-69
+2026-08-18 09:49:12,628 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-86
+2026-08-18 09:49:12,628 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-89
+2026-08-18 09:49:12,628 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-92
+2026-08-18 09:49:12,629 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-96
+2026-08-18 09:49:12,629 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-74
+2026-08-18 09:49:12,629 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-94
+2026-08-18 09:49:12,630 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-87
+2026-08-18 09:49:12,630 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-67
+2026-08-18 09:49:12,631 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-39
+2026-08-18 09:49:12,631 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-62
+2026-08-18 09:49:12,631 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-85
+2026-08-18 09:49:12,631 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-83
+2026-08-18 09:49:12,631 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-78
+2026-08-18 09:49:12,631 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-90
+2026-08-18 09:49:12,632 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-79
+2026-08-18 09:49:12,632 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-95
+2026-08-18 09:49:12,632 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-81
+2026-08-18 09:49:12,632 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-68
+2026-08-18 09:49:12,633 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-71
+2026-08-18 09:49:12,633 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-106
+2026-08-18 09:49:12,633 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-104
+2026-08-18 09:49:12,633 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-88
+2026-08-18 09:49:12,633 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-105
+2026-08-18 09:49:12,633 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-111
+2026-08-18 09:49:12,633 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-113
+2026-08-18 09:49:12,634 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-82
+2026-08-18 09:49:12,634 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-93
+2026-08-18 09:49:12,634 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-108
+2026-08-18 09:49:12,635 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-103
+2026-08-18 09:49:12,635 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-110
+2026-08-18 09:49:12,635 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-77
+2026-08-18 09:49:12,635 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-99
+2026-08-18 09:49:12,635 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-66
+2026-08-18 09:49:12,636 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-109
+2026-08-18 09:49:12,636 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-73
+2026-08-18 09:49:12,636 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-84
+2026-08-18 09:49:12,636 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-126
+2026-08-18 09:49:12,637 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-120
+2026-08-18 09:49:12,637 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-98
+2026-08-18 09:49:12,637 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-97
+2026-08-18 09:49:12,637 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-100
+2026-08-18 09:49:12,637 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-117
+2026-08-18 09:49:12,637 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-112
+2026-08-18 09:49:12,637 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-115
+2026-08-18 09:49:12,637 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-133
+2026-08-18 09:49:12,638 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-101
+2026-08-18 09:49:12,638 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-143
+2026-08-18 09:49:12,638 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-144
+2026-08-18 09:49:12,639 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-135
+2026-08-18 09:49:12,639 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-146
+2026-08-18 09:49:12,639 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-125
+2026-08-18 09:49:12,639 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-147
+2026-08-18 09:49:12,639 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-107
+2026-08-18 09:49:12,639 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-134
+2026-08-18 09:49:12,639 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-121
+2026-08-18 09:49:12,639 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-116
+2026-08-18 09:49:12,639 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-124
+2026-08-18 09:49:12,640 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-114
+2026-08-18 09:49:12,640 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-151
+2026-08-18 09:49:12,641 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-102
+2026-08-18 09:49:12,642 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-127
+2026-08-18 09:49:12,642 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-136
+2026-08-18 09:49:12,642 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-138
+2026-08-18 09:49:12,642 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-149
+2026-08-18 09:49:12,642 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-152
+2026-08-18 09:49:12,643 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-118
+2026-08-18 09:49:12,643 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-123
+2026-08-18 09:49:12,643 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-148
+2026-08-18 09:49:12,644 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-130
+2026-08-18 09:49:12,644 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-122
+2026-08-18 09:49:12,644 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-166
+2026-08-18 09:49:12,644 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-169
+2026-08-18 09:49:12,644 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-145
+2026-08-18 09:49:12,645 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-119
+2026-08-18 09:49:12,645 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-150
+2026-08-18 09:49:12,645 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-168
+2026-08-18 09:49:12,645 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-137
+2026-08-18 09:49:12,645 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-153
+2026-08-18 09:49:12,646 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-131
+2026-08-18 09:49:12,646 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-132
+2026-08-18 09:49:12,646 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-128
+2026-08-18 09:49:12,646 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-142
+2026-08-18 09:49:12,646 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-141
+2026-08-18 09:49:12,647 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-129
+2026-08-18 09:49:12,647 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-176
+2026-08-18 09:49:12,647 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-177
+2026-08-18 09:49:12,647 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-163
+2026-08-18 09:49:12,648 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-162
+2026-08-18 09:49:12,648 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-158
+2026-08-18 09:49:12,648 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-161
+2026-08-18 09:49:12,648 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-170
+2026-08-18 09:49:12,649 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-155
+2026-08-18 09:49:12,649 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-178
+2026-08-18 09:49:12,649 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-160
+2026-08-18 09:49:12,649 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-157
+2026-08-18 09:49:12,649 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-156
+2026-08-18 09:49:12,649 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-140
+2026-08-18 09:49:12,649 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-165
+2026-08-18 09:49:12,651 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-174
+2026-08-18 09:49:12,651 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-139
+2026-08-18 09:49:12,651 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-172
+2026-08-18 09:49:12,651 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-187
+2026-08-18 09:49:12,651 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-190
+2026-08-18 09:49:12,652 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-188
+2026-08-18 09:49:12,652 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-182
+2026-08-18 09:49:12,652 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-181
+2026-08-18 09:49:12,652 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-184
+2026-08-18 09:49:12,652 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-175
+2026-08-18 09:49:12,653 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-180
+2026-08-18 09:49:12,653 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-185
+2026-08-18 09:49:12,654 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-193
+2026-08-18 09:49:12,654 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-173
+2026-08-18 09:49:12,654 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-186
+2026-08-18 09:49:12,654 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-179
+2026-08-18 09:49:12,663 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-189
+2026-08-18 09:49:12,663 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-2
+2026-08-18 09:49:12,664 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-164
+2026-08-18 09:49:12,664 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-183
+2026-08-18 09:49:12,664 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-171
+2026-08-18 09:49:12,664 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-1
+2026-08-18 09:49:12,664 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-195
+2026-08-18 09:49:12,664 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-19
+2026-08-18 09:49:12,664 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-159
+2026-08-18 09:49:12,665 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-192
+2026-08-18 09:49:12,684 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-154
+2026-08-18 09:49:12,741 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-167
+2026-08-18 09:49:12,788 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-191
+2026-08-18 09:49:12,824 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-200
+2026-08-18 09:49:12,828 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-17
+2026-08-18 09:49:12,828 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-22
+2026-08-18 09:49:12,828 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-196
+2026-08-18 09:49:12,828 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-20
+2026-08-18 09:49:12,828 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-15
+2026-08-18 09:49:12,829 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-12
+2026-08-18 09:49:12,829 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-7
+2026-08-18 09:49:12,829 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-8
+2026-08-18 09:49:12,830 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-5
+2026-08-18 09:49:12,830 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-10
+2026-08-18 09:49:12,830 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-199
+2026-08-18 09:49:12,830 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-6
+2026-08-18 09:49:12,831 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-14
+2026-08-18 09:49:12,831 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-11
+2026-08-18 09:49:12,831 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-197
+2026-08-18 09:49:12,831 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-16
+2026-08-18 09:49:12,831 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-198
+2026-08-18 09:49:12,832 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-194
+2026-08-18 09:49:12,832 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-3
+2026-08-18 09:49:12,832 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-9
+2026-08-18 09:49:12,832 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-25
+2026-08-18 09:49:12,832 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-36
+2026-08-18 09:49:12,832 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-4
+2026-08-18 09:49:12,832 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-18
+2026-08-18 09:49:12,834 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-13
+2026-08-18 09:49:12,835 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-26
+2026-08-18 09:49:12,835 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-30
+2026-08-18 09:49:12,835 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-21
+2026-08-18 09:49:12,835 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-29
+2026-08-18 09:49:12,835 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-44
+2026-08-18 09:49:12,836 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-24
+2026-08-18 09:49:12,836 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-32
+2026-08-18 09:49:12,836 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-34
+2026-08-18 09:49:12,853 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-33
+2026-08-18 09:49:12,889 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-43
+2026-08-18 09:49:12,904 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-23
+2026-08-18 09:49:12,904 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-46
+2026-08-18 09:49:12,904 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-28
+2026-08-18 09:49:12,904 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-27
+2026-08-18 09:49:12,904 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-56
+2026-08-18 09:49:12,904 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-31
+2026-08-18 09:49:12,904 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-48
+2026-08-18 09:49:12,905 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-37
+2026-08-18 09:49:12,905 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-35
+2026-08-18 09:49:12,906 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-47
+2026-08-18 09:49:12,946 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-49
+2026-08-18 09:49:13,227 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-57
+2026-08-18 09:49:13,285 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-60
+2026-08-18 09:49:13,377 INFO o.a.j.t.JMeterThread: Thread finished: Sudden spike 2-64
+2026-08-18 09:49:13,549 INFO o.a.j.t.JMeterThread: Thread started: Recovery after spike 3-1
+2026-08-18 09:49:14,549 INFO o.a.j.t.JMeterThread: Thread started: Recovery after spike 3-2
+2026-08-18 09:49:15,550 INFO o.a.j.t.JMeterThread: Thread started: Recovery after spike 3-3
+2026-08-18 09:49:16,549 INFO o.a.j.t.JMeterThread: Thread started: Recovery after spike 3-4
+2026-08-18 09:49:17,549 INFO o.a.j.t.JMeterThread: Thread started: Recovery after spike 3-5
+2026-08-18 09:49:30,715 INFO o.a.j.r.Summariser: summary +   1332 in 00:00:30 =   44.5/s Avg:   366 Min:     6 Max:  1606 Err:     0 (0.00%) Active: 5 Started: 210 Finished: 205
+2026-08-18 09:49:30,715 INFO o.a.j.r.Summariser: summary =   1404 in 00:00:48 =   29.1/s Avg:   348 Min:     6 Max:  1606 Err:     0 (0.00%)
+2026-08-18 09:49:32,739 INFO o.a.j.t.JMeterThread: Thread finished: Recovery after spike 3-5
+2026-08-18 09:49:32,787 INFO o.a.j.t.JMeterThread: Thread finished: Recovery after spike 3-2
+2026-08-18 09:49:32,833 INFO o.a.j.t.JMeterThread: Thread finished: Recovery after spike 3-4
+2026-08-18 09:49:32,850 INFO o.a.j.t.JMeterThread: Thread finished: Recovery after spike 3-1
+2026-08-18 09:49:32,864 INFO o.a.j.t.JMeterThread: Thread finished: Recovery after spike 3-3
+2026-08-18 09:49:32,865 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-08-18 09:49:32,865 INFO o.a.j.s.FileServer: Close: data/coupons.csv
+2026-08-18 09:49:32,869 INFO o.a.j.r.Summariser: summary +     14 in 00:00:02 =    6.5/s Avg:     7 Min:     6 Max:     8 Err:     0 (0.00%) Active: 0 Started: 210 Finished: 210
+2026-08-18 09:49:32,869 INFO o.a.j.r.Summariser: summary =   1418 in 00:00:50 =   28.2/s Avg:   345 Min:     6 Max:  1606 Err:     0 (0.00%)
+2026-08-18 09:49:32,870 INFO o.a.j.JMeter: Generating Dashboard
+2026-08-18 09:49:32,870 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-08-18 09:49:32,894 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-08-18 09:49:33,001 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-08-18 09:49:33,001 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-08-18 09:49:33,004 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-08-18 09:49:33,004 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-08-18 09:49:33,011 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-08-18 09:49:33,014 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-08-18 09:49:33,014 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-08-18 09:49:33,014 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-08-18 09:49:33,072 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-08-18 09:49:33,073 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-08-18 09:49:33,073 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-08-18 09:49:33,073 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-08-18 09:49:33,113 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-08-18 09:49:33,113 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 9926 samples
+2026-08-18 09:49:33,113 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-08-18 09:49:33,113 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-08-18 09:49:33,113 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-08-18 09:49:33,114 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-08-18 09:49:33,114 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-08-18 09:49:33,114 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-08-18 09:49:33,116 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-08-18 09:49:33,117 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-08-18 09:49:33,117 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-08-18 09:49:33,117 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-08-18 09:49:33,117 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 21270 samples
+2026-08-18 09:49:33,117 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 4254 samples
+2026-08-18 09:49:33,117 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 1418 samples
+2026-08-18 09:49:33,118 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1418 samples produced in 203ms on channel 0
+2026-08-18 09:49:33,118 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-08-18 09:49:33,202 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-08-18 09:49:33,202 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-08-18 09:49:33,203 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-08-18 09:49:33,203 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-08-18 09:49:33,204 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\nguye\Documents\GitHub\Homework05-23127116\html-reports\spike\statistics.json
+2026-08-18 09:49:33,238 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-08-18 09:49:33,240 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\nguye\Documents\GitHub\Homework05-23127116\html-reports\spike
+2026-08-18 09:49:33,334 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\nguye\Documents\GitHub\Homework05-23127116\html-reports\spike, creating folder structure
+2026-08-18 09:49:33,336 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\Users\nguye\Documents\GitHub\HW05-23127116\.tools\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\nguye\Documents\GitHub\Homework05-23127116\html-reports\spike', got message: C:\Users\nguye\Documents\GitHub\Homework05-23127116\html-reports\spike, found non empty folder with following content [C:\Users\nguye\Documents\GitHub\Homework05-23127116\html-reports\spike\statistics.json], will be ignored
+2026-08-18 09:49:33,669 INFO o.a.j.JMeter: Dashboard generated
