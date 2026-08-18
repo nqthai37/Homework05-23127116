@@ -1,0 +1,6 @@
+code_prefix,type,discount_value,min_order_amount,expired_at,max_uses_per_user
+PERCENT10,percent,10,100000,2099-12-31,1
+PERCENT15,percent,15,200000,2099-12-31,2
+PERCENT20,percent,20,300000,2099-12-31,1
+FIXED20K,fixed,20000,150000,2099-12-31,1
+FIXED50K,fixed,50000,500000,2099-12-31,2

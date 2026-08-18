@@ -1,0 +1,6 @@
+name_prefix,email_prefix,email_domain,password
+Performance User,perf_register_a,example.invalid,Password123!
+Load Test User,perf_register_b,example.invalid,Register123!
+Stress Test User,perf_register_c,example.invalid,SecurePass123!
+Virtual Customer,perf_register_d,example.invalid,VirtualUser123!
+Test Account,perf_register_e,example.invalid,TestAccount123!
