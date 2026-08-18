@@ -1,0 +1,12 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1787017604608,588,SETUP POST /api/login,200,OK,Setup - Admin login 1-1,text,true,,640,255,1,1,http://localhost:3000/api/login,588,0,575
+1787017605962,8040,BASELINE POST /api/admin/coupons,200,OK,Baseline before spike 1-1,text,true,,303,546,1,4,http://localhost:3000/api/admin/coupons,8040,0,8014
+1787017609962,4024,SPIKE POST /api/admin/coupons,200,OK,Sudden spike 2-1,text,true,,302,546,2,4,http://localhost:3000/api/admin/coupons,4024,0,4014
+1787017613964,37,RECOVERY POST /api/admin/coupons,200,OK,Recovery after spike 3-1,text,true,,302,546,1,4,http://localhost:3000/api/admin/coupons,37,0,12
+1787017610473,3528,SPIKE POST /api/admin/coupons,200,OK,Sudden spike 2-2,text,true,,302,546,2,4,http://localhost:3000/api/admin/coupons,3528,0,3503
+1787017614519,7,RECOVERY POST /api/admin/coupons,200,OK,Recovery after spike 3-1,text,true,,303,546,1,1,http://localhost:3000/api/admin/coupons,7,0,0
+1787017615030,7,RECOVERY POST /api/admin/coupons,200,OK,Recovery after spike 3-1,text,true,,303,546,1,1,http://localhost:3000/api/admin/coupons,7,0,0
+1787017615546,8,RECOVERY POST /api/admin/coupons,200,OK,Recovery after spike 3-1,text,true,,303,546,1,1,http://localhost:3000/api/admin/coupons,8,0,0
+1787017616062,7,RECOVERY POST /api/admin/coupons,200,OK,Recovery after spike 3-1,text,true,,303,546,1,1,http://localhost:3000/api/admin/coupons,7,0,0
+1787017616576,8,RECOVERY POST /api/admin/coupons,200,OK,Recovery after spike 3-1,text,true,,303,546,1,1,http://localhost:3000/api/admin/coupons,8,0,0
+1787017617088,7,RECOVERY POST /api/admin/coupons,200,OK,Recovery after spike 3-1,text,true,,303,546,1,1,http://localhost:3000/api/admin/coupons,7,0,0

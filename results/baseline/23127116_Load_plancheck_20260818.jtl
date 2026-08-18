@@ -1,0 +1,20 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1787016282947,32,LOAD GET /api/products?search=iPhone,200,OK,Load - Product search 1-1,text,true,,453,169,1,1,http://localhost:3000/api/products?search=iPhone,32,0,25
+1787016283895,2,LOAD GET /api/products?search=Samsung,200,OK,Load - Product search 1-1,text,true,,480,170,1,1,http://localhost:3000/api/products?search=Samsung,2,0,0
+1787016284019,2,LOAD GET /api/products?search=MacBook,200,OK,Load - Product search 1-1,text,true,,450,170,1,1,http://localhost:3000/api/products?search=MacBook,2,0,0
+1787016284158,2,LOAD GET /api/products?search=AirPods,200,OK,Load - Product search 1-1,text,true,,461,170,1,1,http://localhost:3000/api/products?search=AirPods,2,0,0
+1787016284298,2,LOAD GET /api/products?search=Keychron,200,OK,Load - Product search 1-1,text,true,,469,171,1,1,http://localhost:3000/api/products?search=Keychron,2,0,0
+1787016284470,2,LOAD GET /api/products?search=iPhone,200,OK,Load - Product search 1-1,text,true,,453,169,1,1,http://localhost:3000/api/products?search=iPhone,2,0,0
+1787016284672,2,LOAD GET /api/products?search=Samsung,200,OK,Load - Product search 1-1,text,true,,480,170,1,1,http://localhost:3000/api/products?search=Samsung,2,0,0
+1787016284827,4,LOAD GET /api/products?search=MacBook,200,OK,Load - Product search 1-1,text,true,,450,170,1,1,http://localhost:3000/api/products?search=MacBook,4,0,0
+1787016285029,2,LOAD GET /api/products?search=AirPods,200,OK,Load - Product search 1-1,text,true,,461,170,1,1,http://localhost:3000/api/products?search=AirPods,1,0,0
+1787016285186,2,LOAD GET /api/products?search=Keychron,200,OK,Load - Product search 1-1,text,true,,469,171,1,1,http://localhost:3000/api/products?search=Keychron,2,0,0
+1787016285295,1,LOAD GET /api/products?search=iPhone,200,OK,Load - Product search 1-1,text,true,,453,169,1,1,http://localhost:3000/api/products?search=iPhone,1,0,0
+1787016285451,2,LOAD GET /api/products?search=Samsung,200,OK,Load - Product search 1-1,text,true,,480,170,1,1,http://localhost:3000/api/products?search=Samsung,2,0,0
+1787016285593,2,LOAD GET /api/products?search=MacBook,200,OK,Load - Product search 1-1,text,true,,450,170,1,1,http://localhost:3000/api/products?search=MacBook,2,0,0
+1787016285763,2,LOAD GET /api/products?search=AirPods,200,OK,Load - Product search 1-1,text,true,,461,170,1,1,http://localhost:3000/api/products?search=AirPods,2,0,0
+1787016285950,1,LOAD GET /api/products?search=Keychron,200,OK,Load - Product search 1-1,text,true,,469,171,1,1,http://localhost:3000/api/products?search=Keychron,1,0,0
+1787016286152,1,LOAD GET /api/products?search=iPhone,200,OK,Load - Product search 1-1,text,true,,453,169,1,1,http://localhost:3000/api/products?search=iPhone,1,0,0
+1787016286309,2,LOAD GET /api/products?search=Samsung,200,OK,Load - Product search 1-1,text,true,,480,170,1,1,http://localhost:3000/api/products?search=Samsung,2,0,0
+1787016286449,3,LOAD GET /api/products?search=MacBook,200,OK,Load - Product search 1-1,text,true,,450,170,1,1,http://localhost:3000/api/products?search=MacBook,3,0,0
+1787016286620,1,LOAD GET /api/products?search=AirPods,200,OK,Load - Product search 1-1,text,true,,461,170,1,1,http://localhost:3000/api/products?search=AirPods,1,0,0

@@ -1,0 +1,2 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1787016614322,8044,STRESS POST /api/register,200,OK,Stress - Account registration 1-1,text,true,,316,343,1,1,http://localhost:3000/api/register,8044,0,8032
