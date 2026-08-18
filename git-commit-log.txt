@@ -1,0 +1,21 @@
+7081e5c | 2026-08-18 11:11:57 +0700 | Tahi | chore: ignore local rerun and rebuild files
+21afae6 | 2026-08-18 11:10:16 +0700 | Tahi | docs: add final report README video script and PDFs
+843831e | 2026-08-18 11:09:57 +0700 | Tahi | docs: complete step-level AI audit
+cebb3b0 | 2026-08-18 11:09:45 +0700 | Tahi | test: add cleanup safeguards and run screenshots
+f5005ab | 2026-08-18 10:29:14 +0700 | Tahi | skill: add validated JMeter analysis workflow
+51b7be1 | 2026-08-18 10:28:47 +0700 | Tahi | docs: add evidence-backed issue drafts
+347dc04 | 2026-08-18 10:28:33 +0700 | Tahi | analysis: add continuous testing proposal and AI critique
+a558dbd | 2026-08-18 10:28:18 +0700 | Tahi | analysis: validate AI claims against raw evidence
+06cd1ce | 2026-08-18 10:28:05 +0700 | Tahi | results: add ten-minute Endurance evidence
+54ba554 | 2026-08-18 10:27:41 +0700 | Tahi | results: add ten-minute Endurance evidence
+6a55753 | 2026-08-18 10:27:18 +0700 | Tahi | results: add official coupon Spike run
+6f2be02 | 2026-08-18 10:26:43 +0700 | Tahi | results: add official registration Stress run
+9af9ae3 | 2026-08-18 10:26:12 +0700 | Tahi | results: add official read-heavy Load run
+6733c8d | 2026-08-18 10:25:47 +0700 | Tahi | results: add baseline and load calibration evidence
+0a3e164 | 2026-08-18 08:56:39 +0700 | Tahi | test: add data-driven JMeter plans
+b086b65 | 2026-08-18 08:20:10 +0700 | Tahi | data: add independent CSV datasets
+40163fc | 2026-08-18 08:13:13 +0700 | Tahi | docs: record performance test environment
+509b322 | 2026-08-18 08:02:41 +0700 | Tahi | test: verify selected API behavior and authorization
+a4304f0 | 2026-08-18 07:46:39 +0700 | Tahi | docs: define HW05 endpoint scope
+5a0b77c | 2026-08-18 07:45:47 +0700 | Tahi | docs: define HW05 endpoint scope
+662fea9 | 2026-08-18 07:30:59 +0700 | Tahi | Initial commit
