@@ -1,7 +1,7 @@
 param(
     [string]$BaseUrl = "http://localhost:3000",
-    [string]$AdminEmail = "admin@eshop.com",
-    [string]$AdminPassword = "Admin123!"
+    [Parameter(Mandatory = $true)]
+    [System.Management.Automation.PSCredential]$AdminCredential
 )
 
 $ErrorActionPreference = "Stop"
@@ -10,7 +10,10 @@ $login = Invoke-RestMethod `
     -Method Post `
     -Uri "$BaseUrl/api/login" `
     -ContentType "application/json" `
-    -Body (@{ email = $AdminEmail; password = $AdminPassword } | ConvertTo-Json)
+    -Body (@{
+        email = $AdminCredential.UserName
+        password = $AdminCredential.GetNetworkCredential().Password
+    } | ConvertTo-Json)
 
 if (-not $login.token) {
     throw "Admin login did not return a JWT token."
