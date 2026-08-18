@@ -1,0 +1,12 @@
+# Local rebuild/checklist notes (not submission artifacts)
+MANUAL_EVIDENCE_REQUIRED.md
+SUBMISSION_READINESS.md
+
+# Local JMeter launcher log and screenshot-only rerun raw outputs
+jmeter.log
+results/*_evidence-*.jtl
+evidence/*/*-evidence-*.log
+
+# Preserved local failed attempts; official evidence is stored elsewhere
+results/failed-attempts/
+evidence/failed-attempts/
