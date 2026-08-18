@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze JMeter Performance"
+  short_description: "Analyze JTL metrics and challenge AI conclusions"
+  default_prompt: "Use $analyze-jmeter-performance to analyze these JTL logs and produce a human-review checklist."
